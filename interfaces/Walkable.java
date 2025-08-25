@@ -6,7 +6,7 @@ package interfaces;
 public interface Walkable {
     /**
      * Makes the animal walk a specified distance.
-     * @param distance
+     * @param distance the distance for the animal to walk
      */
     void walk(int distance);
 }

@@ -43,7 +43,8 @@ public class ZooManager {
         if (index >= 0 && index < animals.size()) {
             return animals.get(index);
         }
-        return null;
+        
+        throw new IndexOutOfBoundsException("Invalid index: " + index);
     }
 
     /**

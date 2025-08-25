@@ -1,4 +1,8 @@
 package animals;
+
+/**
+ * Abstract class representing a generic Animal.
+ */
 public abstract class Animal {
     private String species;
     private int location;
