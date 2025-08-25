@@ -1,3 +1,8 @@
+package animals;
+
+import interfaces.Predator;
+import interfaces.Walkable;
+
 public class Cat extends Animal implements Walkable, Predator {
     public Cat() {
         super();

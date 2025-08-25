@@ -1,3 +1,7 @@
+package animals;
+import interfaces.Prey;
+import interfaces.Walkable;
+
 public class Mouse extends Animal implements Walkable, Prey {
     public Mouse() {
         super();
