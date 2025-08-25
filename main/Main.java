@@ -9,21 +9,13 @@ import interfaces.Walkable;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Animal> animals = new ArrayList<>(10);
-        animals.add(new Mouse());
-        animals.add(new Cat());
-        animals.add(new Mouse());
+        ZooManager zooManager = new ZooManager();
+        zooManager.addAnimal(new Cat());
+        zooManager.addAnimal(new Mouse());
+        zooManager.listAnimals();
+        zooManager.walkAll(5);
+        zooManager.walkAll(3);
+        zooManager.makeAllSounds();
 
-        for (Animal animal : animals) {
-            System.out.println("Species: " + animal.getSpecies());
-            animal.makeSound();
-            if (animal instanceof Prey) {
-                ((Prey) animal).flee();
-            }
-            if (animal instanceof Walkable) {
-                ((Walkable) animal).walk(5);
-            }
-            System.out.println();
-        }
     }
 }
