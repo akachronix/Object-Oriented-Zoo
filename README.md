@@ -1,0 +1,2 @@
+Level 3 completed
+AI used for comments and autocomplete. No prompting actually used. Only the IntelliSense style autocomplete. I adjusted comments where there were clerical errors. In the polymorphism, an autocomplete blurb popped up with the instance of syntax which I thought was clever. Knew that was in the language just not the syntax. Makes the polymorphic control flow a lot easier to understand

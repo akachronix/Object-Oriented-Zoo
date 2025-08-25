@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"animals","l":"Animal"},{"p":"animals","l":"Cat"},{"p":"animals","l":"Dog"},{"p":"main","l":"Main"},{"p":"animals","l":"Mouse"},{"p":"interfaces","l":"Predator"},{"p":"interfaces","l":"Prey"},{"p":"interfaces","l":"Walkable"},{"p":"main","l":"ZooManager"}];updateSearchResults();
